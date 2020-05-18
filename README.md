@@ -1,2 +1,5 @@
 # java-concurrent
-projects to know how to use concurrent lib in Java
+
+1. synchronized method [refer link](https://github.com/colenhuttran/java-concurrent/tree/master/synchronized-method/src/com)
+
+
