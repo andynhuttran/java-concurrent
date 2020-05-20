@@ -20,6 +20,8 @@
 
 2. synchronized block [refer link](https://github.com/colenhuttran/java-concurrent/tree/master/synchronized-block/src/com)
 
-2. wait() and notify() [refer link](https://github.com/colenhuttran/java-concurrent/tree/master/wait-notify/src/com)
+3. wait() and notify() [refer link](https://github.com/colenhuttran/java-concurrent/tree/master/wait-notify/src/com)
+
+4. ReentrantLock class [refer link](https://github.com/colenhuttran/java-concurrent/tree/master/lock-reentrantlock/src/com)
 
 
