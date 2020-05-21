@@ -12,10 +12,12 @@ util there is a permision.
 
 4. Permit look like a count number
     
-    when **semaphore.acquire()** is called, permit count is descreased.
+    when **semaphore.acquire()** is called, "permit num" is descreased.
     
-    when **semaphore.release()** is called, permit count is inscreased.
+    when **semaphore.release()** is called, "permit num" is inscreased.
     
-    The thread have to wait, the permit count equal rezo.
+    Other threads have to wait, the "permit num" equal rezo.
+    
+    "permit num" is given when a semaphore is created.
 
 
