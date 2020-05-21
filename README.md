@@ -24,4 +24,6 @@
 
 4. ReentrantLock class [refer link](https://github.com/colenhuttran/java-concurrent/tree/master/lock-reentrantlock/src/com)
 
+5. Semaphore example [refer link](https://github.com/colenhuttran/java-concurrent/tree/master/semaphore-example/src/com)
+
 
