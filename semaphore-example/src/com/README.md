@@ -21,3 +21,6 @@ util there is a permision.
     "permit num" is given when a semaphore is created.
 
 
+5. Using **semaphore**, you can allow how many thread access to shared resource at the same time.
+
+    Mutex is a **semaphore** with "permit num" is 1, it means only one thread accessing shared resource at a time.
