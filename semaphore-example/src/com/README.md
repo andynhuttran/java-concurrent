@@ -16,7 +16,7 @@ util there is a permision.
     
     when **semaphore.release()** is called, "permit num" is inscreased.
     
-    Other threads have to wait, the "permit num" equal rezo.
+    Other threads have to wait if the "permit num" equal rezo.
     
     "permit num" is given when a semaphore is created.
 
