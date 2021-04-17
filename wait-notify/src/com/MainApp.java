@@ -38,8 +38,21 @@ class Worker {
 
 public class MainApp {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		Worker worker = new Worker();
+
+		Thread t2 = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				try {
+					worker.consumer();
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		});
+		t2.start();
 		
 		Thread t1 = new Thread(new Runnable() {
 			
@@ -52,21 +65,9 @@ public class MainApp {
 				}
 			}
 		});
-		
-		Thread t2 = new Thread(new Runnable() {
-			
-			@Override
-			public void run() {
-				try {
-					worker.consumer();
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
-			}
-		});
-		
 		t1.start();
-		t2.start();
+
+
 		
 
 	}

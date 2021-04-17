@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-concurrent.iml" filepath="$PROJECT_DIR$/.idea/java-concurrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lock-reentrantlock/lock-reentrantlock.iml" filepath="$PROJECT_DIR$/lock-reentrantlock/lock-reentrantlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/semaphore-example/semaphore-example.iml" filepath="$PROJECT_DIR$/semaphore-example/semaphore-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/synchronized-block/synchronized-block.iml" filepath="$PROJECT_DIR$/synchronized-block/synchronized-block.iml" />
+      <module fileurl="file://$PROJECT_DIR$/synchronized-method/synchronized-method.iml" filepath="$PROJECT_DIR$/synchronized-method/synchronized-method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volatile-example/volatile-example.iml" filepath="$PROJECT_DIR$/volatile-example/volatile-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wait-notify/wait-notify.iml" filepath="$PROJECT_DIR$/wait-notify/wait-notify.iml" />
+    </modules>
+  </component>
+</project>
